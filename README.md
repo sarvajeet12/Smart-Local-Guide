@@ -120,13 +120,19 @@ GET https://your-backend.onrender.com/api/pois?lat=12.97&lng=77.59
 ```json
 [
   {
-    "_id": "66a1fd3d6a0a8b21f0c1f123",
     "name": "Lalbagh Botanical Garden",
     "latitude": 12.9507,
     "longitude": 77.5848,
     "description": "Historic botanical garden...",
     "__v": 0
+  },
+  {
+    "name": "UB City Mall",
+    "latitude": 12.9716,
+    "longitude": 77.5966,
+    "description": "Upscale shopping mall with luxury brands and fine dining."
   }
+
 ]
 ```
 
@@ -188,8 +194,3 @@ navigator.onLine
 * Add favorite saving with Background Sync
 * Draw route between current location and POI using Canvas API
 
----
-
-## 📞 Contact / Questions?
-
-Feel free to reach out for help on deploying or extending this project!
