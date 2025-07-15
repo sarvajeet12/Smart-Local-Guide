@@ -10,8 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const corsOption = {
-    origin: "http://localhost:5173",
-    // origin: "https://hospital-mangement-system-app.onrender.com",
+    origin: "https://smart-local-guide-client.onrender.com",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
     allowedHeaders: ['Authorization', 'Content-Type'],
