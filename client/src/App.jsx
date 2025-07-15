@@ -21,7 +21,7 @@ const App = () => {
     if (location) {
       axios
         .get(
-          `http://localhost:5000/api/pois?lat=${location.lat}&lng=${location.lng}`
+          `https://smart-local-guide-sever.onrender.com/api/pois?lat=${location.lat}&lng=${location.lng}`
         )
         .then((res) => setPois(res.data));
     }
