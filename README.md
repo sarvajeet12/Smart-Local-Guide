@@ -1,4 +1,4 @@
-# 🌍 Smart Local Guide
+# 🌍 Smart Local Guide - Assignment
 
 A real-time location-based web application built with the **MERN stack** that helps users discover nearby places of interest. It uses geolocation, map integration, offline detection, and visibility-based interaction features.
 
